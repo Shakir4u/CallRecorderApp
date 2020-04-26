@@ -1,0 +1,2 @@
+ninja: Entering directory `E:\Android_home\CallRecorder\app\.cxx\cmake\debug\armeabi'
+ninja: no work to do.

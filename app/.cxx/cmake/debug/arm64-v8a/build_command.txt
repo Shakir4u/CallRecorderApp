@@ -1,0 +1,20 @@
+Executable : E:\android\sdk\cmake\3.10.2.4988404\bin\cmake.exe
+arguments : 
+-HE:\Android_home\CallRecorder\app\src\main\cpp
+-DCMAKE_BUILD_TYPE=Debug
+-DCMAKE_TOOLCHAIN_FILE=E:\android-ndk-r15b\build\cmake\android.toolchain.cmake
+-DANDROID_ABI=arm64-v8a
+-DANDROID_NDK=E:\android-ndk-r15b
+-DANDROID_PLATFORM=android-21
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DCMAKE_ANDROID_NDK=E:\android-ndk-r15b
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=E:\Android_home\CallRecorder\app\build\intermediates\cmake\debug\obj\arm64-v8a
+-DCMAKE_MAKE_PROGRAM=E:\android\sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=21
+-BE:\Android_home\CallRecorder\app\.cxx\cmake\debug\arm64-v8a
+-GNinja
+jvmArgs : 
+
+Build command args:

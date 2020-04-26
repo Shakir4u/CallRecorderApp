@@ -1,0 +1,20 @@
+[
+  {
+    "level": "INFO",
+    "message": "Start JSON generation. Platform version: 19 min SDK version: armeabi",
+    "file": "E:\\Android_home\\CallRecorder\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON \u0027E:\\Android_home\\CallRecorder\\app\\.cxx\\cmake\\debug\\armeabi\\android_gradle_build.json\u0027 was up-to-date",
+    "file": "E:\\Android_home\\CallRecorder\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|armeabi"
+  },
+  {
+    "level": "INFO",
+    "message": "JSON generation completed without problems",
+    "file": "E:\\Android_home\\CallRecorder\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag": "debug|armeabi"
+  }
+]

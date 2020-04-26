@@ -1,0 +1,18 @@
+{
+  "buildFiles": [
+    "E:\\Android_home\\CallRecorder\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "E:\\android-ndk-r15b\\build\\cmake\\android.toolchain.cmake"
+  ],
+  "cleanCommands": [
+    "E:\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\Android_home\\CallRecorder\\app\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "E:\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"E:\\Android_home\\CallRecorder\\app\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native-lib-Debug-arm64-v8a": {
+      "artifactName": "native-lib",
+      "buildCommand": "E:\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\Android_home\\CallRecorder\\app\\.cxx\\cmake\\debug\\arm64-v8a\" native-lib",
+      "abi": "arm64-v8a",
+      "output": "E:\\Android_home\\CallRecorder\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libnative-lib.so"
+    }
+  }
+}
