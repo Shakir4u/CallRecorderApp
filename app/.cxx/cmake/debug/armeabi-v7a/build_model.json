@@ -168,7 +168,6 @@
       "project": {
         "compilerSettingsCacheFolder": "E:\\Android_home\\CallRecorder\\.cxx",
         "cxxFolder": "E:\\Android_home\\CallRecorder\\.cxx",
-        "ideBuildTargetAbi": "armeabi-v7a,armeabi",
         "isBuildOnlyTargetAbiEnabled": true,
         "isCmakeBuildCohabitationEnabled": false,
         "isNativeCompilerSettingsCacheEnabled": false,
@@ -214,8 +213,13 @@
     "objFolder": "E:\\Android_home\\CallRecorder\\app\\build\\intermediates\\cmake\\debug\\obj",
     "variantName": "debug",
     "validAbiList": [
+      "ARMEABI",
       "ARMEABI_V7A",
-      "ARMEABI"
+      "ARM64_V8A",
+      "MIPS",
+      "MIPS64",
+      "X86",
+      "X86_64"
     ]
   }
 }

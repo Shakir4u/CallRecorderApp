@@ -1,3 +1,13 @@
 # ninja log v5
 0	8900	609583618	CMakeFiles/native-lib.dir/native-lib.cpp.o	339c1b6564c96301
 8902	10589	609583620	E:/Android_home/CallRecorder/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	e19bd9c4b8adef45
+1	59	0	clean	e45b56c78fb2b078
+58	881	609719761	CMakeFiles/native-lib.dir/native-lib.cpp.o	339c1b6564c96301
+881	1498	609719762	E:/Android_home/CallRecorder/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	e19bd9c4b8adef45
+0	50	0	clean	e45b56c78fb2b078
+0	18	0	clean	e45b56c78fb2b078
+0	23	0	clean	e45b56c78fb2b078
+1	38	0	clean	e45b56c78fb2b078
+1	20	0	clean	e45b56c78fb2b078
+26	747	609726394	CMakeFiles/native-lib.dir/native-lib.cpp.o	339c1b6564c96301
+747	1317	609726394	E:/Android_home/CallRecorder/app/build/intermediates/cmake/debug/obj/armeabi-v7a/libnative-lib.so	e19bd9c4b8adef45
