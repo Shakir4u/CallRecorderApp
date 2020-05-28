@@ -1,7 +1,7 @@
-set(CMAKE_C_COMPILER "E:/android-ndk-r15b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe")
+set(CMAKE_C_COMPILER "E:/android-ndk-r21b/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "Clang")
-set(CMAKE_C_COMPILER_VERSION "3.8")
+set(CMAKE_C_COMPILER_VERSION "9.0")
 set(CMAKE_C_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_C_COMPILER_WRAPPER "")
 set(CMAKE_C_STANDARD_COMPUTED_DEFAULT "11")
@@ -16,11 +16,11 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "E:/android-ndk-r15b/toolchains/x86_64-4.9/prebuilt/windows-x86_64/bin/x86_64-linux-android-ar.exe")
+set(CMAKE_AR "E:/android-ndk-r21b/toolchains/llvm/prebuilt/windows-x86_64/bin/x86_64-linux-android-ar.exe")
 set(CMAKE_C_COMPILER_AR "CMAKE_C_COMPILER_AR-NOTFOUND")
-set(CMAKE_RANLIB "E:/android-ndk-r15b/toolchains/x86_64-4.9/prebuilt/windows-x86_64/bin/x86_64-linux-android-ranlib.exe")
+set(CMAKE_RANLIB "E:/android-ndk-r21b/toolchains/llvm/prebuilt/windows-x86_64/bin/x86_64-linux-android-ranlib.exe")
 set(CMAKE_C_COMPILER_RANLIB "CMAKE_C_COMPILER_RANLIB-NOTFOUND")
-set(CMAKE_LINKER "E:/android-ndk-r15b/toolchains/x86_64-4.9/prebuilt/windows-x86_64/bin/x86_64-linux-android-ld.exe")
+set(CMAKE_LINKER "E:/android-ndk-r21b/toolchains/llvm/prebuilt/windows-x86_64/bin/x86_64-linux-android-ld.exe")
 set(CMAKE_COMPILER_IS_GNUCC )
 set(CMAKE_C_COMPILER_LOADED 1)
 set(CMAKE_C_COMPILER_WORKS TRUE)
@@ -65,17 +65,9 @@ if(CMAKE_C_CL_SHOWINCLUDES_PREFIX)
 endif()
 
 
-set(CMAKE_ANDROID_NDK_TOOLCHAIN_HOST_TAG "windows-x86_64")
-set(CMAKE_ANDROID_NDK_TOOLCHAIN_VERSION "clang")
-set(CMAKE_C_ANDROID_TOOLCHAIN_MACHINE "x86_64-linux-android")
-set(CMAKE_C_ANDROID_TOOLCHAIN_VERSION "4.9")
-set(CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN "E:/android-ndk-r15b/toolchains/x86_64-4.9/prebuilt/windows-x86_64")
-set(CMAKE_C_ANDROID_TOOLCHAIN_PREFIX "E:/android-ndk-r15b/toolchains/x86_64-4.9/prebuilt/windows-x86_64/bin/x86_64-linux-android-")
-set(CMAKE_C_ANDROID_TOOLCHAIN_SUFFIX ".exe")
-
 
 
 
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;dl;c;gcc;dl")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "E:/android-ndk-r15b/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/5.0.300080/lib/linux/x86_64;E:/android-ndk-r15b/toolchains/x86_64-4.9/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x;E:/android-ndk-r15b/toolchains/x86_64-4.9/prebuilt/windows-x86_64/x86_64-linux-android/lib64;E:/android-ndk-r15b/platforms/android-21/arch-x86_64/usr/lib64;E:/android-ndk-r15b/toolchains/x86_64-4.9/prebuilt/windows-x86_64/x86_64-linux-android/lib;E:/android-ndk-r15b/platforms/android-21/arch-x86_64/usr/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "E:/android-ndk-r21b/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/9.0.8/lib/linux/x86_64;E:/android-ndk-r21b/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/x86_64-linux-android/4.9.x;E:/android-ndk-r21b/toolchains/llvm/prebuilt/windows-x86_64/x86_64-linux-android/lib64;E:/android-ndk-r21b/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/21;E:/android-ndk-r21b/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android;E:/android-ndk-r21b/toolchains/llvm/prebuilt/windows-x86_64/x86_64-linux-android/lib;E:/android-ndk-r21b/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

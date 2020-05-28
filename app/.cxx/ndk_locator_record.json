@@ -1,5 +1,5 @@
 {
-  "ndkFolder": "E:\\android-ndk-r15b",
+  "ndkFolder": "E:\\android-ndk-r21b",
   "messages": [
     {
       "level": "INFO",
@@ -7,7 +7,7 @@
     },
     {
       "level": "INFO",
-      "message": "ndk.dir in local.properties is E:\\android-ndk-r15b"
+      "message": "ndk.dir in local.properties is E:\\android-ndk-r21b"
     },
     {
       "level": "INFO",
@@ -23,7 +23,7 @@
     },
     {
       "level": "INFO",
-      "message": "Considering E:\\android-ndk-r15b by ndk.dir"
+      "message": "Considering E:\\android-ndk-r21b by ndk.dir"
     },
     {
       "level": "INFO",
@@ -31,7 +31,7 @@
     },
     {
       "level": "INFO",
-      "message": "Found requested ndk.dir (E:\\android-ndk-r15b) which has version 15.1.4119039"
+      "message": "Found requested ndk.dir (E:\\android-ndk-r21b) which has version 21.1.6352462"
     }
   ]
 }

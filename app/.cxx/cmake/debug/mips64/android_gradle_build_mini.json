@@ -1,5 +1,6 @@
 {
   "buildFiles": [
+    "E:\\oboe_1_3\\CMakeLists.txt",
     "E:\\Android_home\\CallRecorder\\app\\src\\main\\cpp\\CMakeLists.txt",
     "E:\\android-ndk-r15b\\build\\cmake\\android.toolchain.cmake"
   ],
@@ -13,6 +14,12 @@
       "buildCommand": "E:\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\Android_home\\CallRecorder\\app\\.cxx\\cmake\\debug\\mips64\" native-lib",
       "abi": "mips64",
       "output": "E:\\Android_home\\CallRecorder\\app\\build\\intermediates\\cmake\\debug\\obj\\mips64\\libnative-lib.so"
+    },
+    "oboe-Debug-mips64": {
+      "artifactName": "oboe",
+      "buildCommand": "E:\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"E:\\Android_home\\CallRecorder\\app\\.cxx\\cmake\\debug\\mips64\" oboe",
+      "abi": "mips64",
+      "output": "E:\\Android_home\\CallRecorder\\app\\.cxx\\cmake\\debug\\mips64\\oboe\\liboboe.a"
     }
   }
 }

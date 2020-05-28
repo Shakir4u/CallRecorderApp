@@ -9,7 +9,6 @@ cmake_minimum_required(VERSION 3.4.1)
 # or SHARED, and provides the relative paths to its source code.
 # You can define multiple libraries, and CMake builds them for you.
 # Gradle automatically packages shared libraries with your APK.
-
 add_library( # Sets the name of the library.
              native-lib
 
@@ -32,13 +31,19 @@ find_library( # Sets the name of the path variable.
               # you want CMake to locate.
               log )
 
+# Build the Oboe library
+set (OBOE_DIR E:\\oboe_1_3)
+add_subdirectory (${OBOE_DIR} ./oboe)
+
+# Make the Oboe public headers available to our app
+include_directories (${OBOE_DIR}/include)
+
 # Specifies libraries CMake should link to your target library. You
 # can link multiple libraries, such as libraries you define in this
 # build script, prebuilt third-party libraries, or system libraries.
 
 target_link_libraries( # Specifies the target library.
-                       native-lib
-
+                       native-lib oboe
                        # Links the target library to the log library
                        # included in the NDK.
                        ${log-lib} )

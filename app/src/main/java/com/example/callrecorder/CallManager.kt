@@ -43,7 +43,7 @@ object CallManager {
 
   private fun rejectCall() {
     Log.i(LOG_TAG, "rejectCall")
-    currentCall?.reject(false, "")
+    currentCall?.reject(false, "Call Rejected")
   }
 
   private fun disconnectCall() {

@@ -1,6 +1,6 @@
 {
   "abi": "X86_64",
-  "abiPlatformVersion": 21,
+  "abiPlatformVersion": 19,
   "buildSettings": {
     "environmentVariables": []
   },
@@ -16,7 +16,7 @@
         "ndk"
       ],
       "buildRoot": "E:\\Android_home\\CallRecorder\\app\\.cxx\\cmake\\release\\x86_64",
-      "cmakeToolchain": "E:\\android-ndk-r15b\\build\\cmake\\android.toolchain.cmake",
+      "cmakeToolchain": "E:\\android-ndk-r21b\\build\\cmake\\android.toolchain.cmake",
       "cmakeExecutable": "E:\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
       "variables": [
         {
@@ -25,7 +25,7 @@
         },
         {
           "name": "CMAKE_TOOLCHAIN_FILE",
-          "value": "E:\\android-ndk-r15b\\build\\cmake\\android.toolchain.cmake"
+          "value": "E:\\android-ndk-r21b\\build\\cmake\\android.toolchain.cmake"
         },
         {
           "name": "ANDROID_ABI",
@@ -33,11 +33,11 @@
         },
         {
           "name": "ANDROID_NDK",
-          "value": "E:\\android-ndk-r15b"
+          "value": "E:\\android-ndk-r21b"
         },
         {
           "name": "ANDROID_PLATFORM",
-          "value": "android-21"
+          "value": "android-19"
         },
         {
           "name": "CMAKE_ANDROID_ARCH_ABI",
@@ -45,7 +45,7 @@
         },
         {
           "name": "CMAKE_ANDROID_NDK",
-          "value": "E:\\android-ndk-r15b"
+          "value": "E:\\android-ndk-r21b"
         },
         {
           "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
@@ -65,7 +65,7 @@
         },
         {
           "name": "CMAKE_SYSTEM_VERSION",
-          "value": "21"
+          "value": "19"
         }
       ]
     }
@@ -94,7 +94,7 @@
         "minimumCmakeVersion": "3.10.2",
         "ninjaExe": "E:\\android\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
       },
-      "cmakeToolchainFile": "E:\\android-ndk-r15b\\build\\cmake\\android.toolchain.cmake",
+      "cmakeToolchainFile": "E:\\android-ndk-r21b\\build\\cmake\\android.toolchain.cmake",
       "cxxFolder": "E:\\Android_home\\CallRecorder\\app\\.cxx",
       "gradleModulePathName": ":app",
       "intermediatesFolder": "E:\\Android_home\\CallRecorder\\app\\build\\intermediates",
@@ -102,25 +102,16 @@
       "moduleBuildFile": "E:\\Android_home\\CallRecorder\\app\\build.gradle",
       "moduleRootFolder": "E:\\Android_home\\CallRecorder\\app",
       "ndkDefaultAbiList": [
-        "ARMEABI",
         "ARMEABI_V7A",
         "ARM64_V8A",
-        "MIPS",
-        "MIPS64",
         "X86",
         "X86_64"
       ],
-      "ndkFolder": "E:\\android-ndk-r15b",
+      "ndkFolder": "E:\\android-ndk-r21b",
       "ndkMetaAbiList": [
         {
-          "abi": "ARMEABI",
-          "bitness": 64,
-          "deprecated": false,
-          "default": true
-        },
-        {
           "abi": "ARMEABI_V7A",
-          "bitness": 64,
+          "bitness": 32,
           "deprecated": false,
           "default": true
         },
@@ -131,20 +122,8 @@
           "default": true
         },
         {
-          "abi": "MIPS",
-          "bitness": 64,
-          "deprecated": false,
-          "default": true
-        },
-        {
-          "abi": "MIPS64",
-          "bitness": 64,
-          "deprecated": false,
-          "default": true
-        },
-        {
           "abi": "X86",
-          "bitness": 64,
+          "bitness": 32,
           "deprecated": false,
           "default": true
         },
@@ -155,16 +134,34 @@
           "default": true
         }
       ],
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 29,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29
+        }
+      },
       "ndkSupportedAbiList": [
-        "ARMEABI",
         "ARMEABI_V7A",
         "ARM64_V8A",
-        "MIPS",
-        "MIPS64",
         "X86",
         "X86_64"
       ],
-      "ndkVersion": "15.1.4119039",
+      "ndkVersion": "21.1.6352462",
       "project": {
         "compilerSettingsCacheFolder": "E:\\Android_home\\CallRecorder\\.cxx",
         "cxxFolder": "E:\\Android_home\\CallRecorder\\.cxx",
@@ -176,48 +173,22 @@
       },
       "splitsAbiFilterSet": [],
       "stlSharedObjectMap": {
-        "GNUSTL_SHARED": {
-          "ARMEABI": "E:\\android-ndk-r15b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\libgnustl_shared.so",
-          "ARMEABI_V7A": "E:\\android-ndk-r15b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\libgnustl_shared.so",
-          "ARM64_V8A": "E:\\android-ndk-r15b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\libgnustl_shared.so",
-          "MIPS": "E:\\android-ndk-r15b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips\\libgnustl_shared.so",
-          "MIPS64": "E:\\android-ndk-r15b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips64\\libgnustl_shared.so",
-          "X86": "E:\\android-ndk-r15b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\libgnustl_shared.so",
-          "X86_64": "E:\\android-ndk-r15b\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\libgnustl_shared.so"
-        },
-        "GNUSTL_STATIC": {},
         "LIBCXX_SHARED": {
-          "ARMEABI": "E:\\android-ndk-r15b\\sources\\cxx-stl\\llvm-libc++\\libs\\armeabi\\libc++_shared.so",
-          "ARMEABI_V7A": "E:\\android-ndk-r15b\\sources\\cxx-stl\\llvm-libc++\\libs\\armeabi-v7a\\libc++_shared.so",
-          "ARM64_V8A": "E:\\android-ndk-r15b\\sources\\cxx-stl\\llvm-libc++\\libs\\arm64-v8a\\libc++_shared.so",
-          "MIPS": "E:\\android-ndk-r15b\\sources\\cxx-stl\\llvm-libc++\\libs\\mips\\libc++_shared.so",
-          "MIPS64": "E:\\android-ndk-r15b\\sources\\cxx-stl\\llvm-libc++\\libs\\mips64\\libc++_shared.so",
-          "X86": "E:\\android-ndk-r15b\\sources\\cxx-stl\\llvm-libc++\\libs\\x86\\libc++_shared.so",
-          "X86_64": "E:\\android-ndk-r15b\\sources\\cxx-stl\\llvm-libc++\\libs\\x86_64\\libc++_shared.so"
+          "ARMEABI_V7A": "E:\\android-ndk-r21b\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "E:\\android-ndk-r21b\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "E:\\android-ndk-r21b\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "E:\\android-ndk-r21b\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
         },
         "LIBCXX_STATIC": {},
         "NONE": {},
-        "STLPORT_SHARED": {
-          "ARMEABI": "E:\\android-ndk-r15b\\sources\\cxx-stl\\stlport\\libs\\armeabi\\libstlport_shared.so",
-          "ARMEABI_V7A": "E:\\android-ndk-r15b\\sources\\cxx-stl\\stlport\\libs\\armeabi-v7a\\libstlport_shared.so",
-          "ARM64_V8A": "E:\\android-ndk-r15b\\sources\\cxx-stl\\stlport\\libs\\arm64-v8a\\libstlport_shared.so",
-          "MIPS": "E:\\android-ndk-r15b\\sources\\cxx-stl\\stlport\\libs\\mips\\libstlport_shared.so",
-          "MIPS64": "E:\\android-ndk-r15b\\sources\\cxx-stl\\stlport\\libs\\mips64\\libstlport_shared.so",
-          "X86": "E:\\android-ndk-r15b\\sources\\cxx-stl\\stlport\\libs\\x86\\libstlport_shared.so",
-          "X86_64": "E:\\android-ndk-r15b\\sources\\cxx-stl\\stlport\\libs\\x86_64\\libstlport_shared.so"
-        },
-        "STLPORT_STATIC": {},
         "SYSTEM": {}
       }
     },
     "objFolder": "E:\\Android_home\\CallRecorder\\app\\build\\intermediates\\cmake\\release\\obj",
     "variantName": "release",
     "validAbiList": [
-      "ARMEABI",
       "ARMEABI_V7A",
       "ARM64_V8A",
-      "MIPS",
-      "MIPS64",
       "X86",
       "X86_64"
     ]

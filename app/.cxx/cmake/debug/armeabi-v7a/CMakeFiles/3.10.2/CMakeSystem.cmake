@@ -3,21 +3,12 @@ set(CMAKE_HOST_SYSTEM_NAME "Windows")
 set(CMAKE_HOST_SYSTEM_VERSION "10.0.18363")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "AMD64")
 
-include("E:/android-ndk-r15b/build/cmake/android.toolchain.cmake")
+include("E:/android-ndk-r21b/build/cmake/android.toolchain.cmake")
 
-set(CMAKE_SYSTEM "Android-19")
+set(CMAKE_SYSTEM "Android-1")
 set(CMAKE_SYSTEM_NAME "Android")
-set(CMAKE_SYSTEM_VERSION "19")
+set(CMAKE_SYSTEM_VERSION "1")
 set(CMAKE_SYSTEM_PROCESSOR "armv7-a")
-
-set(CMAKE_ANDROID_NDK "E:/android-ndk-r15b")
-set(CMAKE_ANDROID_STANDALONE_TOOLCHAIN "")
-set(CMAKE_ANDROID_ARCH "arm")
-set(CMAKE_ANDROID_ARCH_ABI "armeabi-v7a")
-set(CMAKE_ANDROID_ARCH_HEADER_TRIPLE "arm-linux-androideabi")
-set(CMAKE_ANDROID_NDK_DEPRECATED_HEADERS "0")
-set(CMAKE_ANDROID_ARM_MODE "1")
-set(CMAKE_ANDROID_ARM_NEON "0")
 
 set(CMAKE_CROSSCOMPILING "TRUE")
 

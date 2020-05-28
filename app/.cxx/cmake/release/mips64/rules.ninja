@@ -39,6 +39,25 @@ rule CUSTOM_COMMAND
 
 
 #############################################
+# Rule for compiling CXX files.
+
+rule CXX_COMPILER__oboe
+  depfile = $DEP_FILE
+  deps = gcc
+  command = E:\android-ndk-r15b\toolchains\llvm\prebuilt\windows-x86_64\bin\clang++.exe --target=mips64el-none-linux-android --gcc-toolchain=E:/android-ndk-r15b/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=E:/android-ndk-r15b/sysroot  $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building CXX object $out
+
+
+#############################################
+# Rule for linking CXX static library.
+
+rule CXX_STATIC_LIBRARY_LINKER__oboe
+  command = cmd.exe /C "$PRE_LINK && E:\android\sdk\cmake\3.10.2.4988404\bin\cmake.exe -E remove $TARGET_FILE && E:\android-ndk-r15b\toolchains\mips64el-linux-android-4.9\prebuilt\windows-x86_64\bin\mips64el-linux-android-ar.exe qc $TARGET_FILE $LINK_FLAGS $in && E:\android-ndk-r15b\toolchains\mips64el-linux-android-4.9\prebuilt\windows-x86_64\bin\mips64el-linux-android-ranlib.exe $TARGET_FILE && $POST_BUILD"
+  description = Linking CXX static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE

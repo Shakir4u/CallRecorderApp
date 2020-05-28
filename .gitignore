@@ -3,4 +3,4 @@
 .externalNativeBuild/
 .cxx/
 .idea
-build
+/build

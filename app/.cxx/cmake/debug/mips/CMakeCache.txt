@@ -201,8 +201,8 @@ CMAKE_SYSTEM_NAME:UNINITIALIZED=Android
 //No help, variable specified on the command line.
 CMAKE_SYSTEM_VERSION:UNINITIALIZED=19
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=E:/android-ndk-r15b/build/cmake/android.toolchain.cmake
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=E:\android-ndk-r15b\build\cmake\android.toolchain.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -220,7 +220,16 @@ Project_SOURCE_DIR:STATIC=E:/Android_home/CallRecorder/app/src/main/cpp
 log-lib:FILEPATH=E:/android-ndk-r15b/platforms/android-19/arch-mips/usr/lib/liblog.so
 
 //Dependencies for the target
-native-lib_LIB_DEPENDS:STATIC=general;E:/android-ndk-r15b/platforms/android-19/arch-mips/usr/lib/liblog.so;
+native-lib_LIB_DEPENDS:STATIC=general;oboe;general;E:/android-ndk-r15b/platforms/android-19/arch-mips/usr/lib/liblog.so;
+
+//Value Computed by CMake
+oboe_BINARY_DIR:STATIC=E:/Android_home/CallRecorder/app/.cxx/cmake/debug/mips/oboe
+
+//Dependencies for the target
+oboe_LIB_DEPENDS:STATIC=general;log;general;OpenSLES;
+
+//Value Computed by CMake
+oboe_SOURCE_DIR:STATIC=E:/oboe_1_3
 
 
 ########################
@@ -315,7 +324,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

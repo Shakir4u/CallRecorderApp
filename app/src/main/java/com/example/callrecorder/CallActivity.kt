@@ -22,17 +22,16 @@ class CallActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_call)
-
         hideBottomNavigationBar()
 
 
         tvStartStop.setOnClickListener {
-            if((tvStartStop.tag as Int)==0){
-                tvStartStop.tag=1
+            if((tvStartStop.tag as String).toInt()==0){
+                tvStartStop.tag="1"
                 tvStartStop.text="Stop"
                 CallManager.acceptCall()
             }else{
-                tvStartStop.tag=0
+                tvStartStop.tag="0"
                 tvStartStop.text="Start"
                 CallManager.cancelCall()
             }
@@ -76,7 +75,7 @@ class CallActivity : AppCompatActivity() {
             else                        -> Unit
         }
 
-        textDisplayName.text = /*gsmCall.displayName*/"Unknown"
+        textDisplayName.text = "Unknown"
         tvUserNumber.text = gsmCall.displayName ?: "Unknown"
     }
 

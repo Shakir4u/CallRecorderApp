@@ -1,2 +1,51 @@
 ninja: Entering directory `E:\Android_home\CallRecorder\app\.cxx\cmake\debug\armeabi-v7a'
-ninja: no work to do.
+[1/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/FixedBlockAdapter.cpp.o
+[2/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/FixedBlockReader.cpp.o
+[3/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/FixedBlockWriter.cpp.o
+[4/46] Building CXX object CMakeFiles/native-lib.dir/native-lib.cpp.o
+E:/Android_home/CallRecorder/app/src/main/cpp/native-lib.cpp:21:1: warning: control reaches end of non-void function [-Wreturn-type]
+}
+^
+1 warning generated.
+[5/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/fifo/FifoController.cpp.o
+[6/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/SourceI16Caller.cpp.o
+[7/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/LatencyTuner.cpp.o
+[8/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/AudioStreamBuilder.cpp.o
+[9/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/SourceFloatCaller.cpp.o
+[10/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/QuirksManager.cpp.o
+[11/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/fifo/FifoBuffer.cpp.o
+[12/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/fifo/FifoControllerIndirect.cpp.o
+[13/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/ClipToRange.cpp.o
+[14/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/FlowGraphNode.cpp.o
+[15/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/Utilities.cpp.o
+[16/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/fifo/FifoControllerBase.cpp.o
+[17/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/ManyToMultiConverter.cpp.o
+[18/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SampleRateConverter.cpp.o
+[19/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SinkFloat.cpp.o
+[20/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SourceI16.cpp.o
+[21/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/RampLinear.cpp.o
+[22/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/MonoToMultiConverter.cpp.o
+[23/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SinkI24.cpp.o
+[24/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SourceI24.cpp.o
+[25/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SourceFloat.cpp.o
+[26/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/resampler/LinearResampler.cpp.o
+[27/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/SinkI16.cpp.o
+[28/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/resampler/PolyphaseResamplerStereo.cpp.o
+[29/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/resampler/MultiChannelResampler.cpp.o
+[30/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/resampler/IntegerRatio.cpp.o
+[31/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/resampler/PolyphaseResamplerMono.cpp.o
+[32/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/resampler/SincResampler.cpp.o
+[33/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/resampler/PolyphaseResampler.cpp.o
+[34/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/flowgraph/resampler/SincResamplerStereo.cpp.o
+[35/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/StabilizedCallback.cpp.o
+[36/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/AudioOutputStreamOpenSLES.cpp.o
+[37/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/OpenSLESUtilities.cpp.o
+[38/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/EngineOpenSLES.cpp.o
+[39/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/AudioInputStreamOpenSLES.cpp.o
+[40/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/AudioStreamOpenSLES.cpp.o
+[41/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/Trace.cpp.o
+[42/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/common/Version.cpp.o
+[43/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/OutputMixerOpenSLES.cpp.o
+[44/46] Building CXX object oboe/CMakeFiles/oboe.dir/src/opensles/AudioStreamBuffered.cpp.o
+[45/46] Linking CXX static library oboe\liboboe.a
+[46/46] Linking CXX shared library E:\Android_home\CallRecorder\app\build\intermediates\cmake\debug\obj\armeabi-v7a\libnative-lib.so

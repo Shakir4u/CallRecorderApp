@@ -1,3 +1,14 @@
 E:/Android_home/CallRecorder/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/native-lib.dir
+E:/Android_home/CallRecorder/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/install/local.dir
+E:/Android_home/CallRecorder/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/install.dir
 E:/Android_home/CallRecorder/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
 E:/Android_home/CallRecorder/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
+E:/Android_home/CallRecorder/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/list_install_components.dir
+E:/Android_home/CallRecorder/app/.cxx/cmake/release/arm64-v8a/CMakeFiles/install/strip.dir
+E:/Android_home/CallRecorder/app/.cxx/cmake/release/arm64-v8a/oboe/CMakeFiles/oboe.dir
+E:/Android_home/CallRecorder/app/.cxx/cmake/release/arm64-v8a/oboe/CMakeFiles/install/local.dir
+E:/Android_home/CallRecorder/app/.cxx/cmake/release/arm64-v8a/oboe/CMakeFiles/install.dir
+E:/Android_home/CallRecorder/app/.cxx/cmake/release/arm64-v8a/oboe/CMakeFiles/edit_cache.dir
+E:/Android_home/CallRecorder/app/.cxx/cmake/release/arm64-v8a/oboe/CMakeFiles/rebuild_cache.dir
+E:/Android_home/CallRecorder/app/.cxx/cmake/release/arm64-v8a/oboe/CMakeFiles/list_install_components.dir
+E:/Android_home/CallRecorder/app/.cxx/cmake/release/arm64-v8a/oboe/CMakeFiles/install/strip.dir

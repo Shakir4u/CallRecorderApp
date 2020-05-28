@@ -7,19 +7,7 @@
   },
   {
     "level": "INFO",
-    "message": "Trying to locate CMake in local SDK repository.",
-    "file": "E:\\Android_home\\CallRecorder\\app\\src\\main\\cpp\\CMakeLists.txt",
-    "tag": "release|armeabi"
-  },
-  {
-    "level": "INFO",
-    "message": "- CMake found in SDK at \u0027E:\\android\\sdk\\cmake\\3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
-    "file": "E:\\Android_home\\CallRecorder\\app\\src\\main\\cpp\\CMakeLists.txt",
-    "tag": "release|armeabi"
-  },
-  {
-    "level": "INFO",
-    "message": "CMake \u00273.6.0\u0027 found in SDK did not match requested version \u00273.10.2\u0027.",
+    "message": "- CMake found from cmake.dir at \u0027E:\\android\\sdk\\cmake\\3.10.2.4988404\u0027 had version \u00273.10.2\u0027",
     "file": "E:\\Android_home\\CallRecorder\\app\\src\\main\\cpp\\CMakeLists.txt",
     "tag": "release|armeabi"
   },
